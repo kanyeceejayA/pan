@@ -13,18 +13,17 @@ h1{
 h2{
     font-weight: normal;
     text-transform: uppercase;
-    color: #00b9a2;
+    color:  #9a9998;
 }
 .navbar{
 	padding-bottom: 30px;
 }
 .navbar-brand img{
-	height: 80px;
+	height: 70px;
 }
 .navbar-right{
 	float:right;
 	margin-left: auto;
-	margin-right: 3%;
 	vertical-align: top;
 }
 .nav-link ,.s a{
@@ -58,13 +57,13 @@ a.active{
 
 }
 section{
-	padding: 20px;
+	padding: 4%;
 }
 .alt-bg{
 	background-color: #f5f2ed;
 	/*background:linear-gradient(12deg, #f5f2ed 100px , #153454 1em );*/
 	min-height: 20%;
-	/*position: relative;*/
+	position: relative;
 	padding: 0%;
 }
 
@@ -73,7 +72,7 @@ section{
 	width: 100%;
 	margin-left:0%;
 	margin-top: -40px;
-	margin-bottom: -50px;
+	margin-bottom: -5%;
 	/*min-width: 500px;
 	position: center;
     bottom: 20%;
@@ -90,13 +89,17 @@ hr{
 	width: 100px;
 	height: 3px;
 	background-color: #f0ece3;
+	margin-bottom: 3%;
 }
-.landing{
+.alt-bg h2{
+	color: #00b9a2;
+}
+.alt-bg p{
 	position: relative;
 	/*margin: auto;*/
 	text-align: center;
-	margin-right: 30%;
-	 margin-left: 30%;
+	margin-right: 15%;
+	 margin-left: 15%;
 	
 }
 .products{
@@ -109,8 +112,8 @@ hr{
 	text-align: center;
 	display: inline-flex;
 	max-width: 930px;
-	margin-left: 5%;
-	margin-right: auto;
+	/*margin-left: 5%;*/
+	margin: auto;
 }
 .card{
 	background-color: #f0ece3;
