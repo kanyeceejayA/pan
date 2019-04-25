@@ -1,0 +1,148 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700);
+body{
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #9d9c9a;
+}
+h1{
+    
+    font-weight: normal;
+    color: #9a9998;
+    text-transform: uppercase;
+}
+h2{
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #00b9a2;
+}
+.navbar-brand{
+	margin-left: 5%;
+	margin-right:2px;
+}
+.navbar-brand img{
+	height: 80px;
+}
+.navbar-right{
+	float:right;
+	margin-left: auto;
+	margin-right: 3%;
+}
+.nav-item ,.s a{
+	color: yellow;
+	text-decoration:none;
+}
+li.navitem.active a{
+	color:blue;
+
+}
+section{
+	padding: 2%;
+}
+.alt-bg{
+	background-color: #f5f2ed;
+	padding: 2%;
+}
+hr{
+	border: none;
+	width: 100px;
+	height: 3px;
+	background-color: #f0ece3;
+}
+.landing{
+	position: relative;
+	/*margin: auto;*/
+	text-align: center;
+	margin-right: 30%;
+	 margin-left: 30%;
+	
+}
+.products{
+	margin-left: 15%;
+	margin-right:15%;
+	column-gap: 0px;
+	position:relative;
+}
+.card{
+	background-color: #f0ece3;
+	border-radius: 0px;
+	border-width: 0px;
+	border: 0px;
+	margin:0px;
+	width:30%;
+	max-width:400px;
+	min-width: 300px;
+	text-align: left;
+
+}
+.card-img-top{
+	width: 100%;
+
+}
+.card-title{
+	padding:10%;
+}
+.card-alt{
+	background-color: #00acc8;	
+	color: white;
+}
+.btn{
+	border-radius: 25px;
+}
+.btn-white{
+	background-color: white;
+	color: #00acc8;
+	font-weight: bold;
+	margin-left: 10%;
+}
+.btn-white:hover{
+	background-color: #00acc8;
+	color: white;
+}
+.btn-outline-success{
+	color: white;
+	margin-left: 10%;
+}
+.endnote{
+	color: #00acc8;
+	margin-top:1.5%;
+}
+.lightblue{
+	background-image: linear-gradient(to right, rgba(110,183,255,0.5),rgba(110,183,255,1));
+	opacity: 20%;
+	padding-left: 20%;
+	padding-right:20%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	min-height: 250px;
+	width: inherit;
+	height: inherit;
+	text-align: center;
+
+}
+.boybg{
+	background-image: url('../images/boy-bg.png');
+	background-repeat: no-repeat;
+	background-size: 280px;
+	background-position: bottom left;
+	padding: 0px;
+	color: white;
+	min-height: 250px;
+
+}
+.footer1{
+	background-color: #32556f;
+
+}
+
+
+
+
+/*
+	<!-- Necessary JS -->
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+*/
