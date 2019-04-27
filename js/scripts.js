@@ -7,3 +7,11 @@
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 */
+(function($) {
+    "use strict";
+
+    // manual carousel controls
+    $('.next').click(function(){ $('.carousel').carousel('next');return false; });
+    $('.prev').click(function(){ $('.carousel').carousel('prev');return false; });
+    
+})(jQuery);
