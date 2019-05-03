@@ -46,6 +46,7 @@ h2{
 }
 .s a:hover{
 	background-color:#00acc8;
+	padding: 6px 16px 6px 16px;
 	color: white;
 	border: 1px solid #a4a19b;
 	border-radius: 25px;
